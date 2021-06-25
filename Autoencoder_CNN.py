@@ -3,7 +3,7 @@ This file implement an Autoencoder [by CNN (convolutional neural network)]
 to get the learnt features
 Autoencoder_CNN aims to extract the important features from images
 Then use the extracted features for classification in a Full Connected classifier
-Use the reconstructed images to compare with the raw images
+Use the reconstructed images to compare with the raw images as the loss
 '''
 
 # import libraries

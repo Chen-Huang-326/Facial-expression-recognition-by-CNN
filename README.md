@@ -19,12 +19,15 @@ Chen Huang, hcrt520@gmail.com
 TBD
 
 ## CNN
-**Version 1:** The structure of the basic CNN can be seen in the figure below. It contains 3 CNN layers and each CNN layer follows by a maxpooling layer.
+**Version 1:** The structure of the basic CNN can be seen in the figure below. It contains 3 CNN layers and each CNN layer follows by a maxpooling layer.  
+<img src="https://github.com/Chen-Huang-326/Facial-expression-recognition-by-CNN/blob/master/data/model%20structure/basic%20CNN.png" alt="20-s2-TL" align=center />
 
-**Version 2:** The structure of the concatenated CNN can be seen in the figure below. It concatenate a CNN and a simple full-connected neural network. It aims to use both the raw images and the processed data (extracted features by PHOG & LPQ) to improve the classification accuracy.
+**Version 2:** The structure of the concatenated CNN can be seen in the figure below. It concatenate a CNN and a simple full-connected neural network. It aims to use both the raw images and the processed data (extracted features by PHOG & LPQ) to improve the classification accuracy.  
+<img src="https://github.com/Chen-Huang-326/Facial-expression-recognition-by-CNN/blob/master/data/model%20structure/concatenated%20CNN.png" alt="20-s2-TL" align=center />
 
 ## Autoencoder
-The Autoencoder is implemented by a symmetric CNN neural network, both the encoder and decoder consist of 3 CNN layers. The structure can be seen in the figure below.
+The Autoencoder is implemented by a symmetric CNN neural network, both the encoder and decoder consist of 3 CNN layers. The structure can be seen in the figure below.  
+<img src="https://github.com/Chen-Huang-326/Facial-expression-recognition-by-CNN/blob/master/data/model%20structure/Autoencoder.png" alt="20-s2-TL" align=center />
 
 ## Fine-tuning ResNet
 The fine-tuning ResNet aims at learning the transfer learning. It compares the performances of the fine-tuning models based on different ResNet. We use the ResNet 18/34/50/101/152 as the pretrained model separately. In our experiments, we apply two fine-tuning approaches, including last layer fine-tuning and all layer fine-tuning.

@@ -16,7 +16,7 @@ This is a repo containing a facial expression recognition (FER) classifier by CN
 Chen Huang, hcrt520@gmail.com
 
 ## Paper
-TBD
+The paper of the program can be found [HERE](https://github.com/Chen-Huang-326/Facial-expression-recognition-by-CNN/blob/master/Facial%20Emotion%20Recognition%20on%20Static%20Facial%20Expressions%20in%20the%20Wild%20dataset%20by%20Convolutional%20neural%20network%20and%20fine-tuning%20ResNet.pdf)
 
 ## CNN
 **Version 1:** The structure of the basic CNN can be seen in the figure below. It contains 3 CNN layers and each CNN layer follows by a maxpooling layer.  
